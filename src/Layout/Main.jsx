@@ -23,7 +23,7 @@ const Main = () => {
         <Home homeRef={homeRef} />
         <About aboutRef={aboutRef} />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

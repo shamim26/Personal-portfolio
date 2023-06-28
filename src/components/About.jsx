@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-const About = ({aboutRef}) => {
+
+const About = ({ aboutRef }) => {
   return (
     <div ref={aboutRef} className="container w-2/3 mx-auto py-10">
       <h3 className="uppercase underline mb-6">About Information</h3>
@@ -30,6 +31,9 @@ const About = ({aboutRef}) => {
           Email: <span className="text-gray-400">shamimreja101@gmail.com</span>
         </p>
       </div>
+      <a href="Resume.pdf" className="text-sm bg-custom3 px-4 py-3 inline-block cursor-pointer mt-14">
+        Download Resume
+      </a>
     </div>
   );
 };

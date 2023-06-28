@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex items-center justify-between px-14 py-5">
+    <div className="flex flex-col md:flex-row items-center justify-between border-b-[1.7rem] border-custom2 fixed left-0 right-0 bottom-0  px-14 py-5">
       <div>
         <small>© 2023 Shamim. All rights reserved.</small>
       </div>

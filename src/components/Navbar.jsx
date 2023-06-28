@@ -5,11 +5,11 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="flex items-center justify-between relative px-14 py-8">
+    <div className="flex items-center justify-between fixed top-0 left-0 right-0 border-t-[1.7rem] border-custom2 px-14 py-8 ">
       <h1 className="uppercase text-3xl tracking-widest">Shamim</h1>
       <div
-        className={`flex items-center lg:flex-row flex-col bg-custom1 w-full lg:w-auto left-0 absolute z-30 lg:static gap-20 lg:p-0 pt-10 lg:gap-10 transition-all ease-linear duration-300 ${
-          isOpen ? "top-20 h-screen" : "-top-[50rem] h-auto"
+        className={`flex items-center lg:flex-row flex-col bg-custom1 w-full lg:w-auto top-20 absolute z-30 lg:static gap-20 lg:p-0 pt-10 lg:gap-10 transition-all ease-linear duration-300 ${
+          isOpen ? "right-0 h-[30rem]" : "-right-[90rem] h-auto"
         }`}
       >
         <NavLink to="#">Home</NavLink>

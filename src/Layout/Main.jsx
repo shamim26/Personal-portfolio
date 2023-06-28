@@ -4,9 +4,11 @@ import Footer from "../components/Footer";
 
 const Main = () => {
   return (
-    <div className="border-[1.7rem] z-10 border-custom2 bg-custom1 h-screen w-full text-white">
+    <div className="flex flex-col border-[1.7rem] border-custom2 bg-custom1 text-white min-h-screen">
       <Navbar />
-      <Outlet />
+      <div className="flex-grow overflow-y-auto">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

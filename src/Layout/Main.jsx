@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Home from "../components/Home";
 import About from "../components/About";
 import { useRef } from "react";
+import Services from "../components/Services";
 
 const Main = () => {
   const homeRef = useRef(null);
@@ -22,6 +23,7 @@ const Main = () => {
       <div className="flex-grow overflow-y-auto">
         <Home homeRef={homeRef} />
         <About aboutRef={aboutRef} />
+        <Services />
       </div>
       <Footer />
     </div>

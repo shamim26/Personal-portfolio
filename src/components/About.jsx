@@ -31,7 +31,11 @@ const About = ({ aboutRef }) => {
           Email: <span className="text-gray-400">shamimreja101@gmail.com</span>
         </p>
       </div>
-      <a href="Resume.pdf" className="text-sm bg-custom3 px-4 py-3 inline-block cursor-pointer mt-14">
+      <a
+        href="/Resume.pdf"
+        download
+        className="text-sm bg-custom3 px-4 py-3 inline-block cursor-pointer mt-14"
+      >
         Download Resume
       </a>
     </div>

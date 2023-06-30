@@ -11,7 +11,14 @@ const Main = () => {
   const aboutRef = useRef(null);
 
   const handleScroll = (elementRef) => {
-    elementRef.current.scrollIntoView({ behavior: "smooth" });
+    if (elementRef && elementRef.current) {
+      const yOffset = -180;
+      const y =
+        elementRef.current.getBoundingClientRect().top +
+        window.pageYOffset +
+        yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   return (

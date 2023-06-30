@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="container w-2/3 mx-auto mt-20">
+    <div className="container w-2/3 mx-auto pb-36">
       <h3 className="uppercase underline mb-8">Services</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div>

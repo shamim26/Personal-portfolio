@@ -2,7 +2,7 @@
 
 const About = ({ aboutRef }) => {
   return (
-    <div ref={aboutRef} className="container w-2/3 mx-auto mt-16">
+    <div ref={aboutRef} className="container w-2/3 mx-auto pb-36">
       <h3 className="uppercase underline mb-6">About Information</h3>
       <p className="text-gray-400 md:text-justify">
         Hello, I'm Shamim Reza, a passionate front-end developer. With expertise

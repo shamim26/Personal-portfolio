@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between border-b-[1.7rem] border-l-[1.7rem] border-r-[1.7rem] border-custom2 bg-custom1 fixed left-0 right-0 bottom-0  px-14 py-5">
       <div>
-        <small>© 2023 Shamim. All rights reserved.</small>
+        <small className="text-gray-400">© 2023 Shamim. All rights reserved.</small>
       </div>
       <div className="flex items-center gap-3">
         <a

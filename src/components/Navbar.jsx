@@ -3,7 +3,13 @@ import { Fade as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import logo from "../assets/logo(1).png";
 
-const Navbar = ({ handleScroll, homeRef, aboutRef, projectRef }) => {
+const Navbar = ({
+  handleScroll,
+  homeRef,
+  aboutRef,
+  projectRef,
+  contactRef,
+}) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className="flex items-center justify-between z-40 fixed top-0 left-0 right-0 border-t-[1.7rem] border-l-[1.7rem] border-r-[1.7rem] border-custom2 bg-custom1 md:px-14 py-8 ">
@@ -22,7 +28,9 @@ const Navbar = ({ handleScroll, homeRef, aboutRef, projectRef }) => {
         <NavLink onClick={() => handleScroll(projectRef)} to="#projects">
           Projects
         </NavLink>
-        <NavLink to="#">Contact</NavLink>
+        <NavLink onClick={() => handleScroll(contactRef)} to="#contact">
+          Contact
+        </NavLink>
       </div>
       <div className="lg:hidden">
         <Hamburger toggled={isOpen} toggle={setOpen} />

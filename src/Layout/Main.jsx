@@ -6,11 +6,13 @@ import { useRef } from "react";
 import Services from "../components/Services";
 import Skills from "../components/Skills";
 import Projects from "../components/projects";
+import Contacts from "../components/Contacts";
 
 const Main = () => {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const projectRef = useRef(null);
+  const contactRef = useRef(null);
 
   const handleScroll = (elementRef) => {
     if (elementRef && elementRef.current) {
@@ -30,6 +32,7 @@ const Main = () => {
         homeRef={homeRef}
         aboutRef={aboutRef}
         projectRef={projectRef}
+        contactRef={contactRef}
       />
       <div className="flex-grow overflow-y-auto">
         <Home homeRef={homeRef} />
@@ -37,6 +40,7 @@ const Main = () => {
         <Services />
         <Skills />
         <Projects projectRef={projectRef} />
+        <Contacts contactRef={contactRef} />
       </div>
       <Footer />
     </div>

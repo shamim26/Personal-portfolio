@@ -9,7 +9,7 @@ const Projects = ({ projectRef }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="group relative flex flex-col transition-all ease-in-out duration-300">
           <img className="object-cover h-[310px]" src={photo1} alt="" />
-          <div className="absolute top-12 left-7 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-custom3 h-[13rem] w-[15rem] transition-all ease-in-out duration-300">
+          <div className="absolute top-12 left-7 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-custom3 h-[13rem] w-[10rem] lg:w-[15rem] transition-all ease-in-out duration-300">
             <a href="https://camp-dojo-9b584.web.app/" target="_blank">
               <svg
                 viewBox="0 0 320 512"
@@ -42,7 +42,7 @@ const Projects = ({ projectRef }) => {
         </div>
         <div className="group relative flex flex-col transition-all ease-in-out duration-300">
           <img className="object-cover h-[310px]" src={photo2} alt="" />
-          <div className="absolute top-12 left-7 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-custom3 h-[13rem] w-[15rem] transition-all ease-in-out duration-300">
+          <div className="absolute top-12 left-7 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-custom3 h-[13rem] w-[10rem] lg:w-[15rem] transition-all ease-in-out duration-300">
             <a href="https://pixel-pals-18200.web.app/" target="_blank">
               <svg
                 viewBox="0 0 320 512"
@@ -75,7 +75,7 @@ const Projects = ({ projectRef }) => {
         </div>
         <div className="group relative flex flex-col transition-all ease-in-out duration-300">
           <img className="object-cover h-[310px]" src={photo3} alt="" />
-          <div className="absolute top-12 left-7 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-custom3 h-[13rem] w-[15rem] transition-all ease-in-out duration-300">
+          <div className="absolute top-12 left-7 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-custom3 h-[13rem] w-[10rem] lg:w-[15rem] transition-all ease-in-out duration-300">
             <a href="https://spice-safari.web.app/" target="_blank">
               <svg
                 viewBox="0 0 320 512"

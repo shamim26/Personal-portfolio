@@ -11,7 +11,7 @@ const About = ({ aboutRef }) => {
         interfaces.I can also manage back-end development using Node js Express
         Js and MongoDB.
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-16">
         <p className="text-custom3">
           Age: <span className="text-gray-400">21</span>
         </p>
